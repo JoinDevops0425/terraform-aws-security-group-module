@@ -7,7 +7,7 @@ variable "sg_description" {
 }
 
 variable "sg_tags" {
-    type = map(srting)
+    type = map(string)
     default = {}
 } 
 
